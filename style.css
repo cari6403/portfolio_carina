@@ -1,0 +1,93 @@
+/*Indholdsfortegnelse_start*/
+
+
+/*Indholdsfortegnelse_slut*/
+
+
+/*GENERELLE INDSTILLINGER_START*/
+
+* {
+    box-sizing: border-box;
+}
+
+/*:root {
+    --color-red: #EA5045;
+    --color-grey: #FAF7F7;
+}*/
+
+body {
+    margin: 0;
+}
+
+
+img {
+    width: 100%;
+}
+
+/*GENERELLE INDSTILLINGER_SLUT*/
+
+
+/*MENUBAR_START*/
+
+.menu_bar {
+    text-align: right;
+    margin: 1rem;
+    margin-right: 2rem;
+
+}
+
+.menu_bar a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+
+
+}
+
+.menu_active {
+    background-image: url(billeder/menu_aktiv.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*MENUBAR_SLUT/
+
+/*BODY_NAVN_START*/
+
+#body_navn {
+    background-image: url(billeder/body_navn.png);
+    height: 2700px;
+    width: 270px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: -135px;
+
+}
+
+
+/*BODY_NAVN_SLUT*/
+
+
+/*LOGO_START*/
+
+.forside_box {
+    position: relative;
+}
+
+#forside_logo {
+    background-image: url(billeder/Sk%C3%A6rmbillede%202019-06-14%20kl.%2010.44.26.png);
+    width: 73vw;
+    height: 60vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10vw;
+    left: 17vw;
+}
+
+
+/*LOGO_SLUT*/
