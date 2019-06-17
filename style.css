@@ -24,15 +24,42 @@ img {
     width: 100%;
 }
 
+#forside {
+    position: relative;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*GENERELLE INDSTILLINGER_SLUT*/
 
 
 /*MENUBAR_START*/
 
 .menu_bar {
-    text-align: right;
+
     margin: 1rem;
-    margin-right: 2rem;
+    position: fixed;
+    display: flex;
+    width: 95%;
+    justify-content: flex-end;
+    z-index: 10;
+
+
 
 }
 
@@ -42,6 +69,8 @@ img {
     font-family: 'Roboto', sans-serif;
     margin-left: 1rem;
     font-size: 1.2rem;
+
+
 
 
 }
@@ -60,11 +89,12 @@ img {
 
 #body_navn {
     background-image: url(billeder/body_navn.png);
-    height: 2700px;
-    width: 270px;
+    height: 200rem;
+    width: 15rem;
     background-size: 100%;
     background-repeat: no-repeat;
     margin-left: -135px;
+
 
 }
 
@@ -76,6 +106,7 @@ img {
 
 .forside_box {
     position: relative;
+    z-index: 2;
 }
 
 #forside_logo {
@@ -86,8 +117,135 @@ img {
     background-repeat: no-repeat;
     position: absolute;
     top: 10vw;
-    left: 17vw;
+    left: 19vw;
 }
 
 
 /*LOGO_SLUT*/
+
+/*PORTFOLIO_START*/
+
+
+#portfolio {
+    position: absolute;
+    top: 45rem;
+    left: 19vw;
+}
+
+#projekt_h1 {
+    position: absolute;
+    top: 7rem;
+    left: -1rem;
+
+}
+
+
+#pf_html_top {
+    margin-top: 5rem;
+}
+
+.web {
+    background-color: aquamarine;
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+}
+
+.animation {
+    background-color: red;
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+
+}
+
+#top_column_pf {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 70vw;
+    justify-content: space-around;
+    margin-top: 6vw;
+}
+
+#bottom_column_pf {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 70vw;
+    justify-content: space-around;
+    margin-top: 6vw;
+}
+
+.box1 {
+    background-color: aquamarine;
+    width: 15rem;
+    height: 15rem;
+    z-index: 7;
+    text-align: center;
+    padding-top: 7rem;
+
+
+}
+
+
+#pf_html_bottom {
+    text-align: end;
+    margin-top: 2rem;
+}
+
+
+
+/*PORTFOLIO_SLUT*/
+
+
+/*CV_START*/
+
+#cv {
+    position: absolute;
+    top: 110rem;
+    left: 19vw;
+
+}
+
+#cv_boks{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+#cv_h1 {
+    position: absolute;
+    left: -1rem;
+    top: 6.3rem;
+}
+
+#cv_billede {
+
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin: 3rem;
+    margin-left: 0;
+
+}
+
+#cv_tekst {
+    flex-grow: 2;
+    flex-basis: 400px;
+      width: 10vw;
+    margin: 3rem;
+
+}
+
+#h2_cv{
+    position: absolute;
+    top: 16rem;
+    left: 23rem;
+}
+
+#bottom_html_cv{
+    text-align: end;
+}
+
+
+
+/*CV_SLUT*/
