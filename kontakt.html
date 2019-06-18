@@ -17,9 +17,18 @@
 
 
             <a href="index.html">forside</a>
-            <a href="#portfolio">portfolio</a>
-            <a href="#cv">cv</a>
-            <a href="kontakt.html" class="menu_active">kontakt</a>
+            <div class="dropdown">
+                <a href="/index.html#portfolio" class="dropbtn">portfolio
+                </a>
+                <div class="dropdown-content">
+                    <a href="01-web.html">web_01</a>
+                    <a href="02-animation.html">animation_02</a>
+                    <a href="03-indhold.html">indhold_03</a>
+                    <a href="04-ux.html">ux_04</a>
+                </div>
+            </div>
+            <a href="/index.html#cv">cv</a>
+            <a class="menu_active" href="kontakt.html">kontakt</a>
 
         </nav>
 
@@ -32,20 +41,31 @@
 
     <section id="kontakt_section">
 
+        <nav id="burgermenu">
+            <div id="menuknap">☰</div>
+            <ul id="menu" class="hidden">
+                <li><a href="index.html">forside</a></li>
+                <li> <a href="/index.html#portfolio">portfolio</a></li>
+                <li> <a href="/index.html#cv">cv</a></li>
+                <li> <a href="kontakt.html">kontakt</a></li>
+            </ul>
+
+        </nav>
+
         <h1>kontakt</h1>
         <p id="kontakt_h1">h1</p>
 
         <div id="mail">
-           <div id="mail_overskrift">
-               <p>mail</p>
-           </div>
+            <div id="mail_overskrift">
+                <p>mail</p>
+            </div>
             <p>carinahollaender@hotmail.com</p>
         </div>
 
         <div id="mobil">
-           <div id="mobil_overskrift">
-               <p>mobil</p>
-           </div>
+            <div id="mobil_overskrift">
+                <p>mobil</p>
+            </div>
             <p>+45 81615422</p>
         </div>
 

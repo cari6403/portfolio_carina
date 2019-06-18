@@ -17,15 +17,44 @@
 
 
             <a class="menu_active" href="index.html">forside</a>
-            <a href="#portfolio">portfolio</a>
-            <a href="#cv">cv</a>
+            <div class="dropdown">
+                <a href="/index.html#portfolio" class="dropbtn">portfolio
+                </a>
+                <div class="dropdown-content">
+                    <a href="01-web.html">web_01</a>
+                    <a href="02-animation.html">animation_02</a>
+                    <a href="03-indhold.html">indhold_03</a>
+                    <a href="04-ux.html">ux_04</a>
+                </div>
+            </div>
+            <a href="/index.html#cv">cv</a>
             <a href="kontakt.html">kontakt</a>
 
         </nav>
 
     </header>
 
+
+
+
+
+
+
+
+
+
     <section id="forside">
+
+        <nav id="burgermenu">
+            <div id="menuknap">☰</div>
+            <ul id="menu" class="hidden">
+                <li><a href="index.html">forside</a></li>
+                <li> <a href="/index.html#portfolio">portfolio</a></li>
+                <li> <a href="/index.html#cv">cv</a></li>
+                <li> <a href="kontakt.html">kontakt</a></li>
+            </ul>
+
+        </nav>
 
 
         <div class="forside_box">
@@ -47,14 +76,14 @@
             </div>
 
             <nav id="top_column_pf">
-                <a href="index.html" class="box1">web01</a>
-                <a href="index.html" class="box1">web01</a>
+                <a href="01-web.html" class="box1">web_01</a>
+                <a href="02-animation.html" class="box1">animation_02</a>
 
             </nav>
 
             <nav id="bottom_column_pf">
-                <a href="index.html" class="box1">web01</a>
-                <a href="index.html" class="box1">web01</a>
+                <a href="03-indhold.html" class="box1">indhold_03</a>
+                <a href="index.html" class="box1">ux_04</a>
 
             </nav>
 
@@ -71,17 +100,21 @@
 
             <div id="cv_boks">
                 <div id="cv_billede">
-                    <img src="billeder/Sk%C3%A6rmbillede%202019-06-13%20kl.%2013.02.00.png">
+                    <img src="billeder/carina_cv.JPG" alt="carina_pic">
 
 
                 </div>
                 <div id="cv_tekst">
-                    <h2>carina_hollaender</h2>
+                    <h2 id="cv_navn">carina_hollaender</h2>
                     <p id="h2_cv">h2</p>
 
                     <p>p id="om_mig"</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, ipsa, temporibus. Ipsam culpa repellendus alias. Excepturi quod ad, consequuntur sit corrupti harum rem dolorum temporibus? Enim vel nobis impedit quaerat!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, ipsa, temporibus. Ipsam culpa repellendus alias. Excepturi quod ad, consequuntur sit corrupti harum rem dolorum temporibus? Enim vel nobis impedit quaerat!</p>
+                    <p>Jeg hedder Carina, og er 25 år gammel. Efter jeg startede på MMD uddannelsen, har jeg fundet stor interesse i både kodning og design.</p>
+                    <p>Tidligere uddannelse:</p>
+                    <ul>
+                        <li>Københavns Åbne Gym - Medie</li>
+                        <li>EUX business</li>
+                    </ul>
                     <p id="bottom_html_cv">/p></p>
 
                 </div>

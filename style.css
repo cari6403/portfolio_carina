@@ -34,15 +34,27 @@ h1 {
     font-weight: lighter;
 }
 
-h2{
+h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 2.5rem;
     margin-top: 0;
 }
 
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
 }
 
 /*GENERELLE INDSTILLINGER_SLUT*/
@@ -89,7 +101,7 @@ p {
 
 #body_navn {
     background-image: url(billeder/body_navn.png);
-    height: 200rem;
+    height: 150rem;
     width: 15rem;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -139,6 +151,13 @@ p {
 
 }
 
+#portfolio a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2;
+}
+
 
 #pf_html_top {
     margin-top: 5rem;
@@ -164,7 +183,7 @@ p {
     flex-wrap: nowrap;
     width: 70vw;
     justify-content: space-around;
-    margin-top: 6vw;
+    margin-top: 2rem;
 }
 
 #bottom_column_pf {
@@ -206,7 +225,7 @@ p {
 
 }
 
-#cv_boks{
+#cv_boks {
     display: flex;
     flex-wrap: wrap;
 
@@ -228,21 +247,29 @@ p {
 
 }
 
+#cv_billede img {
+    transform: rotate(90deg);
+}
+
 #cv_tekst {
     flex-grow: 2;
     flex-basis: 400px;
-      width: 10vw;
+    width: 10vw;
     margin: 3rem;
 
 }
 
-#h2_cv{
-    position: absolute;
-    top: 16rem;
-    left: 23rem;
+#cv li {
+    font-family: 'Roboto', sans-serif;
 }
 
-#bottom_html_cv{
+#h2_cv {
+    position: absolute;
+    top: 16rem;
+    left: 28.5vw;
+}
+
+#bottom_html_cv {
     text-align: end;
 }
 
@@ -254,7 +281,7 @@ p {
 
 /*KONTAKT_START*/
 
-#kontakt_baggrund{
+#kontakt_baggrund {
     background-image: url(billeder/Kontakt.png);
     width: 10rem;
     height: 52rem;
@@ -262,13 +289,13 @@ p {
     background-size: 100%;
 }
 
-#kontakt_section{
+#kontakt_section {
     position: relative;
     top: -50rem;
     left: 12rem;
 }
 
-#kontakt_h1{
+#kontakt_h1 {
     position: absolute;
     top: 3rem;
     left: -1rem;
@@ -276,10 +303,729 @@ p {
 }
 
 
-#mobil_overskrift, #mail_overskrift{
+#mobil_overskrift,
+#mail_overskrift {
     margin-top: 4rem;
 }
 
 
 
 /*KONTAKT_SLUT*/
+
+
+/*WEB01_START*/
+
+
+#web_baggrund {
+    background-image: url(billeder/01-web.png);
+    width: 12rem;
+    height: 47rem;
+    background-size: 100%;
+    margin-left: -5.5rem;
+    position: relative;
+
+}
+
+
+
+#web_section {
+    position: relative;
+    top: -42rem;
+    left: 12rem;
+}
+
+#web_h1 {
+    position: absolute;
+    top: 3rem;
+    left: -1rem;
+}
+
+
+#web_top,
+#web_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}
+
+#web_top_img {
+    background-image: url(billeder/Sk%C3%A6rmbillede%202019-06-13%20kl.%2013.02.00.png);
+    background-size: 100%;
+    width: 30vw;
+    height: 30vw;
+    margin-top: 4rem;
+
+}
+
+#web_bottom_img {
+    background-image: url(billeder/swiss_ikon512px.png);
+    background-size: 100%;
+    width: 25vw;
+    height: 25vw;
+    margin-top: 4rem;
+}
+
+#web_top_img {
+    height: 40vw;
+    width: 25vw;
+}
+
+#web_top_txt,
+#web_bottom_txt {
+    max-width: 40vw;
+    margin-right: 3rem;
+    position: relative;
+
+}
+
+#web_bottom {
+    margin-top: 3rem;
+}
+
+#web_sketch_pic {
+    background-image: url(billeder/swiss_sketch.png);
+    background-size: 100%;
+    width: 77rem;
+    height: 55rem;
+    background-repeat: no-repeat;
+    margin-left: -4rem;
+}
+
+
+
+#swiss_h2 {
+    position: absolute;
+    top: 1.5rem;
+    left: -1rem;
+
+}
+
+#swiss_h3 {
+    position: absolute;
+    top: 1rem;
+    left: -1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*WEB01_SLUT*/
+
+
+
+
+
+
+
+/*ANIMATION_START*/
+
+#animation_baggrund {
+    background-image: url(billeder/02-animation.png);
+    width: 10rem;
+    height: 83rem;
+    background-size: 100%;
+    margin-left: -5rem;
+    position: relative;
+
+}
+
+
+
+#animation_section {
+    position: relative;
+    top: -77rem;
+    left: 12rem;
+}
+
+#animation_h1 {
+    position: absolute;
+    top: 3rem;
+    left: -1rem;
+}
+
+
+#animation_top,
+#animation_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}
+
+#animation_top_img {
+    background-image: url(billeder/summer_intro.png);
+    background-size: 100%;
+    width: 40vw;
+    height: 23vw;
+    margin-top: 4rem;
+    background-repeat: no-repeat;
+
+}
+
+#animation_bottom_img {
+    background-image: url(billeder/summer_game.png);
+    background-size: 100%;
+      width: 40vw;
+    height: 23vw;
+    margin-top: 4rem;
+    background-repeat: no-repeat;
+
+}
+
+#animation_top_txt,
+#animation_bottom_txt {
+    max-width: 40vw;
+    margin-right: 3rem;
+    position: relative;
+
+}
+
+#animation_bottom {
+    margin-top: 3rem;
+}
+
+#spil_h2 {
+    position: absolute;
+    top: 1.5rem;
+    left: -1rem;
+
+}
+
+#spil_h3 {
+    position: absolute;
+    top: 1rem;
+    left: -1rem;
+}
+
+
+
+
+
+/*ANIMATION_SLUT*/
+
+
+/*INDHOLD_START*/
+
+
+#indhold_baggrund {
+    background-image: url(billeder/03-indhold.png);
+    width: 10rem;
+    height: 67.5rem;
+    background-size: 100%;
+    margin-left: -5rem;
+    position: relative;
+
+}
+
+
+
+#indhold_section {
+    position: relative;
+    top: -64rem;
+    left: 12rem;
+}
+
+#indhold_h1 {
+    position: absolute;
+    top: 3rem;
+    left: -1rem;
+}
+
+
+#indhold_top,
+#indhold_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}
+
+#indhold_top_img,
+#indhold_bottom_img {
+    background-image: url(billeder/Sk%C3%A6rmbillede%202019-06-13%20kl.%2013.02.00.png);
+    background-size: 100%;
+    width: 30vw;
+    height: 30vw;
+    margin-top: 4rem;
+
+}
+
+#indhold_top_txt,
+#indhold_bottom_txt {
+    max-width: 40vw;
+    margin-right: 3rem;
+    position: relative;
+
+}
+
+#indhold_bottom {
+    margin-top: 3rem;
+}
+
+#indhold_h2 {
+    position: absolute;
+    top: 1.5rem;
+    left: -1rem;
+
+}
+
+#indhold_h3 {
+    position: absolute;
+    top: 1rem;
+    left: -1rem;
+}
+
+
+
+/*INDHOLD_SLUT*/
+
+/*UX_START*/
+
+#ux_baggrund {
+    background-image: url(billeder/04-ux%20.png);
+    width: 10rem;
+    height: 75em;
+    background-size: 100%;
+    margin-left: -5rem;
+    position: relative;
+
+}
+
+
+
+#ux_section {
+    position: relative;
+    top: -70rem;
+    left: 12rem;
+}
+
+#ux_h1 {
+    position: absolute;
+    top: 3rem;
+    left: -1rem;
+}
+
+
+#ux_top,
+#ux_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}
+
+#ux_top_img,
+#ux_bottom_img {
+    background-image: url(billeder/Sk%C3%A6rmbillede%202019-06-13%20kl.%2013.02.00.png);
+    background-size: 100%;
+    width: 30vw;
+    height: 30vw;
+    margin-top: 4rem;
+
+}
+
+#ux_top_txt,
+#ux_bottom_txt {
+    max-width: 40vw;
+    margin-right: 3rem;
+    position: relative;
+
+}
+
+#ux_bottom {
+    margin-top: 3rem;
+}
+
+#ux_h2 {
+    position: absolute;
+    top: 1.5rem;
+    left: -1rem;
+
+}
+
+#ux_h3 {
+    position: absolute;
+    top: 1rem;
+    left: -1rem;
+}
+
+
+
+
+/*UX_SLUT*/
+
+
+
+
+
+
+
+
+
+/*BURGER_MENU_START*/
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #982121;
+    min-width: 160px;
+
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    color: white;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.hidden {
+    display: none;
+    /*    transform: scale(0);*/
+    transform: translateX(-100%);
+
+}
+
+/*BURGER_MENU_START*/
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .menu_bar {
+        display: none;
+    }
+
+    #burgermenu {
+
+        font-size: 2rem;
+        margin-right: 1rem;
+        position: relative;
+        z-index: 30;
+
+    }
+
+    li {
+        list-style: none;
+
+    }
+
+    #menu {
+        position: absolute;
+        top: 2rem;
+        left: 15rem;
+        background-color: red;
+        position: fixed;
+        z-index: 30;
+        width: 7.5rem;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+
+    #menuknap {
+        font-family: sans-serif;
+        position: absolute;
+        position: fixed;
+        top: 1vw;
+        left: 21rem;
+        cursor: pointer;
+
+
+    }
+
+    #web_top_img,
+    #web_bottom_img {
+        width: 20rem;
+        height: 20rem;
+        margin-top: 3rem;
+    }
+
+    #web_top_txt,
+    #web_bottom_txt {
+        max-width: 55vw;
+
+
+
+    }
+
+
+
+    #animation_top_img,
+    #animation_bottom_img {
+        width: 15rem;
+        height: 15rem;
+        margin-top: 3rem;
+    }
+
+    #animation_top_txt,
+    #animation_bottom_txt {
+        max-width: 55vw;
+
+
+
+    }
+
+
+    #indhold_top_img,
+    #indhold_bottom_img {
+        width: 15rem;
+        height: 15rem;
+        margin-top: 3rem;
+    }
+
+    #indhold_top_txt,
+    #indhold_bottom_txt {
+        max-width: 55vw;
+
+
+
+    }
+
+
+    #ux_top_img,
+    #ux_bottom_img {
+        width: 15rem;
+        height: 15rem;
+        margin-top: 3rem;
+    }
+
+    #ux_top_txt,
+    #ux_bottom_txt {
+        max-width: 55vw;
+
+
+
+    }
+
+    #body_navn {
+        background-image: url(billeder/portfolio.png);
+        height: 60rem;
+        width: 10rem;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-left: -105px;
+
+
+    }
+
+    #web_baggrund {
+        background-image: url(billeder/01-web.png);
+        width: 10rem;
+        height: 39rem;
+        background-size: 100%;
+        margin-left: -5.5rem;
+        position: relative;
+
+    }
+
+
+    #forside_logo {
+        display: none;
+    }
+
+    #portfolio {
+        position: absolute;
+        top: 2rem;
+        left: 22vw;
+    }
+
+    #cv {
+        position: absolute;
+        top: 42rem;
+        left: 22vw;
+
+    }
+
+    #cv_tekst {
+        flex-grow: 2;
+        flex-basis: 400px;
+        width: 10vw;
+        margin: 3rem;
+        margin-left: 0;
+
+    }
+
+    #h2_cv {
+        left: -3.5rem;
+        top: 44rem;
+    }
+
+    #cv_navn {
+        margin-left: -2.3rem;
+        margin-top: -3rem;
+    }
+
+    .box1 {
+        background-color: aquamarine;
+        width: 15rem;
+        height: 10rem;
+        z-index: 7;
+        text-align: center;
+        padding-top: 4.5rem;
+
+    }
+
+    #web_section {
+        position: relative;
+        top: -35rem;
+        left: 6rem;
+    }
+
+    #animation_section {
+        top: -80rem;
+        left: 7rem;
+    }
+
+    #animation_section h2 {
+        font-size: 2rem;
+        margin-top: -2rem;
+    }
+
+    #spil_h2 {
+        top: -1rem;
+
+    }
+
+    #web_h1 {
+        top: 2rem;
+    }
+
+    #web_section h1 {
+        font-size: 3rem;
+    }
+
+    #web_section h2 {
+        font-size: 2rem;
+        margin-top: -3rem
+    }
+
+    #swiss_h2 {
+        top: -2rem;
+    }
+
+    #web_top_img,
+    #web_bottom_img {
+        margin-left: -4rem;
+
+    }
+
+    #kontakt_section {
+        position: relative;
+        top: -50rem;
+        left: 7rem;
+    }
+
+    #kontakt_h1 {
+        position: absolute;
+        top: 3rem;
+        left: -1rem;
+
+    }
+
+
+    #mobil_overskrift,
+    #mail_overskrift {
+        margin-top: 4rem;
+    }
+
+    #indhold_section {
+        position: relative;
+        top: -64rem;
+        left: 7rem;
+    }
+
+    #indhold_h2 {
+        position: absolute;
+        top: 1rem;
+        left: -1rem;
+
+
+    }
+
+    #indhold_section h2 {
+        font-size: 2rem;
+    }
+
+
+
+
+
+
+    #ux_section {
+        position: relative;
+        top: -73rem;
+        left: 7rem;
+    }
+
+    #ux_h2 {
+        position: absolute;
+        top: 1rem;
+        left: -1rem;
+    }
+
+    #ux_section h2 {
+        font-size: 2rem;
+    }
+
+    #ux_top_txt {
+        margin-top: -2.5rem;
+    }
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    #burgermenu {
+        display: none;
+    }
+}
