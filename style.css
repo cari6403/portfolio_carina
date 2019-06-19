@@ -100,12 +100,15 @@ p {
 /*BODY_NAVN_START*/
 
 #body_navn {
-    background-image: url(billeder/body_navn.png);
-    height: 150rem;
-    width: 15rem;
+    background-image: url(billeder/carina_navn.png);
+    height: 80rem;
+    width: 120rem;
     background-size: 100%;
-    background-repeat: no-repeat;
-    margin-left: -135px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -58rem;
+    top: 15rem;
+
 
 
 }
@@ -122,14 +125,14 @@ p {
 }
 
 #forside_logo {
-    background-image: url(billeder/Sk%C3%A6rmbillede%202019-06-14%20kl.%2010.44.26.png);
-    width: 73vw;
-    height: 60vw;
+    background-image: url(billeder/portfoliopic.png);
+    width: 95vw;
+    height: 50vw;
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    top: 10vw;
-    left: 19vw;
+    top: 0;
+    left: 9vw;
 }
 
 
@@ -140,7 +143,7 @@ p {
 
 #portfolio {
     position: absolute;
-    top: 45rem;
+    top: 65rem;
     left: 19vw;
 }
 
@@ -155,7 +158,7 @@ p {
     text-decoration: none;
     color: black;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2;
+    font-size: 1.2rem;
 }
 
 
@@ -195,12 +198,14 @@ p {
 }
 
 .box1 {
-    background-color: aquamarine;
-    width: 15rem;
+    background-image: url(billeder/port_bag_1.png);
+    background-size: 100%;
+    width: 35rem;
     height: 15rem;
     z-index: 7;
     text-align: center;
-    padding-top: 7rem;
+    padding-top: 8rem;
+    background-repeat: no-repeat;
 
 
 }
@@ -220,7 +225,7 @@ p {
 
 #cv {
     position: absolute;
-    top: 110rem;
+    top: 125rem;
     left: 19vw;
 
 }
@@ -247,15 +252,13 @@ p {
 
 }
 
-#cv_billede img {
-    transform: rotate(90deg);
-}
 
 #cv_tekst {
     flex-grow: 2;
     flex-basis: 400px;
     width: 10vw;
     margin: 3rem;
+
 
 }
 
@@ -265,12 +268,17 @@ p {
 
 #h2_cv {
     position: absolute;
-    top: 16rem;
+    top: 15rem;
     left: 28.5vw;
+
 }
 
 #bottom_html_cv {
     text-align: end;
+}
+
+#cv_tekst p {
+    margin-top: 2rem;
 }
 
 
@@ -300,12 +308,21 @@ p {
     top: 3rem;
     left: -1rem;
 
+
 }
 
 
 #mobil_overskrift,
 #mail_overskrift {
     margin-top: 4rem;
+    background-image: url(billeder/tekst_baggrund.png);
+    background-size: 100%;
+    width: 100px;
+    height: 70px;
+    padding-top: 0.1px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -407,6 +424,52 @@ p {
 }
 
 
+.link_knap {
+    background-image: url(billeder/tekst_baggrund.png);
+    background-size: 100%;
+    width: 17vw;
+    height: 10vw;
+    text-align: center;
+    padding-top: 3rem;
+    padding-right: 0.9rem;
+    margin-top: 3rem;
+
+}
+
+#web_section a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+}
+
+
+.link_knap_lang {
+    background-image: url(billeder/tekst_baggrund.png);
+    background-size: 100%;
+    width: 40vw;
+    height: 7vw;
+    text-align: center;
+    padding-top: 3rem;
+    padding-right: 0.9rem;
+    margin-top: 3rem;
+
+}
+
+.link_knap_lang_2 {
+    background-image: url(billeder/tekst_baggrund.png);
+    background-size: 100%;
+    width: 40vw;
+    height: 9vw;
+    text-align: center;
+    padding-top: 3rem;
+    padding-right: 0.9rem;
+    margin-top: 3rem;
+
+}
+
+
+
 
 
 
@@ -434,6 +497,13 @@ p {
     background-size: 100%;
     margin-left: -5rem;
     position: relative;
+
+}
+
+#animation_section a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
 
 }
 
@@ -472,7 +542,7 @@ p {
 #animation_bottom_img {
     background-image: url(billeder/summer_game.png);
     background-size: 100%;
-      width: 40vw;
+    width: 40vw;
     height: 23vw;
     margin-top: 4rem;
     background-repeat: no-repeat;
@@ -532,6 +602,15 @@ p {
     left: 12rem;
 }
 
+#indhold_section a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    line-height: 1.5;
+
+
+}
+
 #indhold_h1 {
     position: absolute;
     top: 3rem;
@@ -546,13 +625,14 @@ p {
     margin-top: 6rem;
 }
 
-#indhold_top_img,
-#indhold_bottom_img {
-    background-image: url(billeder/Sk%C3%A6rmbillede%202019-06-13%20kl.%2013.02.00.png);
+
+#indhold_top_img {
+    background-image: url(billeder/daf_hund.jpg);
     background-size: 100%;
     width: 30vw;
-    height: 30vw;
+    height: 25vw;
     margin-top: 4rem;
+    background-repeat: no-repeat;
 
 }
 
@@ -581,6 +661,27 @@ p {
     left: -1rem;
 }
 
+#daf_foer {
+    background-image: url(billeder/daf_foer.png);
+    background-size: 100%;
+    width: 100vw;
+    height: 50vw;
+    margin-top: -55rem;
+    position: relative;
+
+}
+
+#daf_efter {
+    background-image: url(billeder/daf_efter.png);
+    background-size: 100%;
+    width: 100vw;
+    height: 50vw;
+    margin-top: 5rem;
+    position: relative;
+
+}
+
+
 
 
 /*INDHOLD_SLUT*/
@@ -605,6 +706,13 @@ p {
     left: 12rem;
 }
 
+#ux_section a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+}
+
 #ux_h1 {
     position: absolute;
     top: 3rem;
@@ -619,13 +727,23 @@ p {
     margin-top: 6rem;
 }
 
-#ux_top_img,
-#ux_bottom_img {
-    background-image: url(billeder/Sk%C3%A6rmbillede%202019-06-13%20kl.%2013.02.00.png);
+#ux_top_img {
+    background-image: url(billeder/iPhone%206-7-8%20%E2%80%93%201.png);
     background-size: 100%;
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 35vw;
     margin-top: 4rem;
+    margin-left: 3rem;
+
+}
+
+#ux_bottom_img {
+    background-image: url(billeder/kea_social.png);
+    background-size: 100%;
+    width: 20vw;
+    height: 35.5vw;
+    margin-top: 4rem;
+    margin-left: 3rem;
 
 }
 
@@ -688,9 +806,10 @@ p {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #982121;
+    background-image: url(billeder/menu_pic.png);
     min-width: 160px;
-
+    background-size: 100%;
+    height: 270px;
     z-index: 1;
 }
 
@@ -772,7 +891,7 @@ p {
         position: absolute;
         position: fixed;
         top: 1vw;
-        left: 21rem;
+        left: 19rem;
         cursor: pointer;
 
 
@@ -792,6 +911,8 @@ p {
 
 
     }
+
+
 
 
 
@@ -826,12 +947,27 @@ p {
 
     }
 
+    .link_knap_lang_2{
+        width: 20rem;
+        height: 10rem;
+        margin-left: -3rem;
+    }
+
+    #indhold_section h1 {
+        font-size: 3rem;
+    }
+
+    #indhold_h1 {
+        top: 1.5rem;
+    }
+
 
     #ux_top_img,
     #ux_bottom_img {
         width: 15rem;
-        height: 15rem;
+        height: 25rem;
         margin-top: 3rem;
+        margin-left: 0rem;
     }
 
     #ux_top_txt,
@@ -847,8 +983,12 @@ p {
         height: 60rem;
         width: 10rem;
         background-size: 100%;
+        top: 0;
+        left: 0;
+        transform: rotate(-360deg);
         background-repeat: no-repeat;
-        margin-left: -105px;
+        left: -6rem;
+
 
 
     }
@@ -876,7 +1016,7 @@ p {
 
     #cv {
         position: absolute;
-        top: 42rem;
+        top: 35rem;
         left: 22vw;
 
     }
@@ -892,7 +1032,7 @@ p {
 
     #h2_cv {
         left: -3.5rem;
-        top: 44rem;
+        top: 40rem;
     }
 
     #cv_navn {
@@ -901,13 +1041,20 @@ p {
     }
 
     .box1 {
-        background-color: aquamarine;
-        width: 15rem;
-        height: 10rem;
+
+        width: 10rem;
+        height: 5rem;
         z-index: 7;
         text-align: center;
-        padding-top: 4.5rem;
+        padding-top: 1.5rem;
 
+
+    }
+
+    .link_knap_lang {
+        width: 16rem;
+        height: 10rem;
+        background-repeat: no-repeat;
     }
 
     #web_section {
@@ -917,14 +1064,24 @@ p {
     }
 
     #animation_section {
-        top: -80rem;
-        left: 7rem;
+        top: -75rem;
+        left: 6rem;
     }
 
     #animation_section h2 {
         font-size: 2rem;
         margin-top: -2rem;
     }
+
+    #animation_section h1 {
+        font-size: 2.7rem;
+        margin-top: -2rem;
+    }
+
+    #animation_h1 {
+        top: 1rem;
+    }
+
 
     #spil_h2 {
         top: -1rem;
@@ -1006,6 +1163,7 @@ p {
         position: absolute;
         top: 1rem;
         left: -1rem;
+
     }
 
     #ux_section h2 {
@@ -1014,6 +1172,14 @@ p {
 
     #ux_top_txt {
         margin-top: -2.5rem;
+    }
+
+    .link_knap {
+        background-repeat: no-repeat;
+        padding-top: 2rem;
+        width: 10rem;
+        padding-left: 1.5rem;
+        height: 7rem;
     }
 
 
